@@ -5,3 +5,4 @@
 // go env GOPATH 를 통해서 GOPATH 확인시 아래 메세지 뜸.
 // $GOPATH/go.mod exists but should not
 // 다시 원래 GOPATH="/Users/hojunhwang/go"로 돌려놓음
+// 40과  godoc -http 명령어 안 먹힘..
