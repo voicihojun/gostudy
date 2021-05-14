@@ -33,7 +33,7 @@ func main() {
 	args.A = 4
 	args.B = 9
 	sumCall := client.Go("Calc.Sum", args, reply, nil)
-
+	
 	<-sumCall.Done
 	fmt.Println(reply.C)
 }
